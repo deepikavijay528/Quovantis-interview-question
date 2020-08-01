@@ -3,10 +3,10 @@ let color=['red',
 'green', 'green', 'red', 'green', 'blue'];
 let max = 1;
 let min = 0;
-var item;
-for (var i=0; i<color.length; i++)
+let item;
+for (let i=0; i<color.length; i++)
 {
-        for (var j=i; j<color.length; j++)
+        for (let j=i; j<color.length; j++)
         {
                 if (color[i] == color[j])
                  min++;
